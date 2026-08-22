@@ -179,7 +179,7 @@ def create_dataloaders(data_dir, batch_size=32, num_workers=2, img_size=224):
 
 if __name__ == '__main__':
     # 测试代码
-    data_dir = Path(r'f:\bifu\project\data\splits')
+    data_dir = Path(__file__).resolve().parents[2] / 'data' / 'splits'
     
     if data_dir.exists():
         train_loader, val_loader, test_loader, class_weights = create_dataloaders(

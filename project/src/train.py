@@ -366,7 +366,7 @@ def main():
     parser = argparse.ArgumentParser(description='图像分类训练脚本')
     
     # 数据参数
-    parser.add_argument('--data_dir', type=str, default='f:/bifu/project/data/splits',
+    parser.add_argument('--data_dir', type=str, default=str(project_root / 'data' / 'splits'),
                         help='数据划分文件目录')
     parser.add_argument('--img_size', type=int, default=224,
                         help='目标图像尺寸')
@@ -394,7 +394,7 @@ def main():
                         help='数据加载线程数')
     
     # 其他参数
-    parser.add_argument('--output_dir', type=str, default='f:/bifu/project/results',
+    parser.add_argument('--output_dir', type=str, default=str(project_root / 'results'),
                         help='输出目录')
     parser.add_argument('--save_interval', type=int, default=5,
                         help='保存检查点间隔')

@@ -305,9 +305,9 @@ def main():
     
     parser.add_argument('--model_path', type=str, required=True,
                         help='模型检查点路径')
-    parser.add_argument('--data_dir', type=str, default='f:/bifu/project/data/splits',
+    parser.add_argument('--data_dir', type=str, default=str(project_root / 'data' / 'splits'),
                         help='数据划分文件目录')
-    parser.add_argument('--output_dir', type=str, default='f:/bifu/project/results',
+    parser.add_argument('--output_dir', type=str, default=str(project_root / 'results'),
                         help='输出目录')
     parser.add_argument('--num_workers', type=int, default=2,
                         help='数据加载线程数（Windows 下如遇多进程报错可设为 0）')

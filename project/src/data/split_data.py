@@ -58,7 +58,8 @@ def split_dataset_by_class(files, train_ratio, val_ratio, test_ratio, seed=42):
 
 def main():
     """主函数"""
-    base_dir = Path(r'f:\bifu')
+    # 自动推导项目根目录（本文件位于 project/src/data/ 下，向上 3 级即项目根）
+    base_dir = Path(__file__).resolve().parents[3]
     georges_dir = base_dir / 'georges'
     non_georges_dir = base_dir / 'non_georges'
     output_dir = base_dir / 'project' / 'data' / 'splits'
