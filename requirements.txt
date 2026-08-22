@@ -1,0 +1,29 @@
+# PyTorch - 深度学习框架
+# 安装命令（CPU版本）: pip install torch torchvision
+# 安装命令（CUDA 11.8版本）: pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118
+# 安装命令（CUDA 12.1版本）: pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+torch==2.5.1
+torchvision==0.20.1
+
+# 数据处理
+numpy>=1.21.0
+pandas>=1.3.0
+Pillow>=8.0.0
+
+# 机器学习工具
+scikit-learn>=1.0.0
+
+# 可视化
+matplotlib>=3.4.0
+seaborn>=0.11.0
+
+# Jupyter
+jupyter>=1.0.0
+ipywidgets>=7.6.0
+
+# Web Demo（project/src/demo.py 依赖）
+gradio==6.25.0
+
+# 工具库
+tqdm>=4.60.0
+pyyaml>=5.4.0

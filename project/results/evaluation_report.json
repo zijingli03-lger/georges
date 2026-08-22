@@ -1,0 +1,518 @@
+{
+  "accuracy": 0.9298245614035088,
+  "precision": 0.9268939393939394,
+  "recall": 0.9289302750431341,
+  "f1_score": 0.9278627113496001,
+  "auc": 0.9760760963947811,
+  "num_errors": 60,
+  "error_rate": 0.07017543859649122,
+  "misclassified_samples": [
+    {
+      "index": 404,
+      "image_path": "f:\\bifu\\non_georges\\f68bdb42aaba5dda83330eb93a3d0560.jpg",
+      "true_label": "non_georges",
+      "predicted_label": "georges",
+      "probability": 0.9998981952667236,
+      "error_type": "false_positive"
+    },
+    {
+      "index": 519,
+      "image_path": "f:\\bifu\\non_georges\\8e7cb41a5b5d7bb386891b0bed31cc2a.jpg",
+      "true_label": "non_georges",
+      "predicted_label": "georges",
+      "probability": 0.9997875094413757,
+      "error_type": "false_positive"
+    },
+    {
+      "index": 828,
+      "image_path": "f:\\bifu\\non_georges\\e2c9142403959291dc9768d9ec2a6b8b.jpg",
+      "true_label": "non_georges",
+      "predicted_label": "georges",
+      "probability": 0.9991881251335144,
+      "error_type": "false_positive"
+    },
+    {
+      "index": 782,
+      "image_path": "f:\\bifu\\non_georges\\d12addac89432815cc331924c98b97e0.jpg",
+      "true_label": "non_georges",
+      "predicted_label": "georges",
+      "probability": 0.9991532564163208,
+      "error_type": "false_positive"
+    },
+    {
+      "index": 479,
+      "image_path": "f:\\bifu\\non_georges\\0c889820ec03227827aeb7045e36512a.jpg",
+      "true_label": "non_georges",
+      "predicted_label": "georges",
+      "probability": 0.9990749359130859,
+      "error_type": "false_positive"
+    },
+    {
+      "index": 605,
+      "image_path": "f:\\bifu\\non_georges\\14767f8edc2b1cbf064f91cd42add601.jpg",
+      "true_label": "non_georges",
+      "predicted_label": "georges",
+      "probability": 0.998456597328186,
+      "error_type": "false_positive"
+    },
+    {
+      "index": 735,
+      "image_path": "f:\\bifu\\non_georges\\42dfd245ab187d7a6bffa688dcb57b2a.jpg",
+      "true_label": "non_georges",
+      "predicted_label": "georges",
+      "probability": 0.9962959885597229,
+      "error_type": "false_positive"
+    },
+    {
+      "index": 435,
+      "image_path": "f:\\bifu\\non_georges\\5ed8853235c80ae6a66d7a665b82ba96.jpg",
+      "true_label": "non_georges",
+      "predicted_label": "georges",
+      "probability": 0.987738847732544,
+      "error_type": "false_positive"
+    },
+    {
+      "index": 683,
+      "image_path": "f:\\bifu\\non_georges\\ec8bfe162e828bb0206f6344fe38e291.jpg",
+      "true_label": "non_georges",
+      "predicted_label": "georges",
+      "probability": 0.9613698124885559,
+      "error_type": "false_positive"
+    },
+    {
+      "index": 455,
+      "image_path": "f:\\bifu\\non_georges\\029ef54d8fef4629737442e356877f7d.jpg",
+      "true_label": "non_georges",
+      "predicted_label": "georges",
+      "probability": 0.9601504802703857,
+      "error_type": "false_positive"
+    },
+    {
+      "index": 768,
+      "image_path": "f:\\bifu\\non_georges\\6f17074ad14adad8f7a93a17021ae7b4.jpg",
+      "true_label": "non_georges",
+      "predicted_label": "georges",
+      "probability": 0.9560577273368835,
+      "error_type": "false_positive"
+    },
+    {
+      "index": 589,
+      "image_path": "f:\\bifu\\non_georges\\6795111488dd85aed86b3b2bee0403a5.jpg",
+      "true_label": "non_georges",
+      "predicted_label": "georges",
+      "probability": 0.9277601838111877,
+      "error_type": "false_positive"
+    },
+    {
+      "index": 583,
+      "image_path": "f:\\bifu\\non_georges\\9900c98e1780b0e67dd6bc4d9c0f4ca5.jpg",
+      "true_label": "non_georges",
+      "predicted_label": "georges",
+      "probability": 0.9257141947746277,
+      "error_type": "false_positive"
+    },
+    {
+      "index": 686,
+      "image_path": "f:\\bifu\\non_georges\\24b7820d1535c66f43525bdebb424043.jpg",
+      "true_label": "non_georges",
+      "predicted_label": "georges",
+      "probability": 0.9015963077545166,
+      "error_type": "false_positive"
+    },
+    {
+      "index": 456,
+      "image_path": "f:\\bifu\\non_georges\\16dd1cdd6ac4466b84534ce556e88849.jpg",
+      "true_label": "non_georges",
+      "predicted_label": "georges",
+      "probability": 0.8987361192703247,
+      "error_type": "false_positive"
+    },
+    {
+      "index": 634,
+      "image_path": "f:\\bifu\\non_georges\\a767ef3450093b947683cf95a16b64e3.jpg",
+      "true_label": "non_georges",
+      "predicted_label": "georges",
+      "probability": 0.8923461437225342,
+      "error_type": "false_positive"
+    },
+    {
+      "index": 792,
+      "image_path": "f:\\bifu\\non_georges\\adfe1b1975cad5c5bf8c9cc30ff4da66.jpg",
+      "true_label": "non_georges",
+      "predicted_label": "georges",
+      "probability": 0.8897693753242493,
+      "error_type": "false_positive"
+    },
+    {
+      "index": 813,
+      "image_path": "f:\\bifu\\non_georges\\6aa72d5b9412dd4c77c328c768542426.jpg",
+      "true_label": "non_georges",
+      "predicted_label": "georges",
+      "probability": 0.8855510354042053,
+      "error_type": "false_positive"
+    },
+    {
+      "index": 764,
+      "image_path": "f:\\bifu\\non_georges\\de93c205bfc3e2acb928f6eccbf4420f.jpg",
+      "true_label": "non_georges",
+      "predicted_label": "georges",
+      "probability": 0.8748341798782349,
+      "error_type": "false_positive"
+    },
+    {
+      "index": 742,
+      "image_path": "f:\\bifu\\non_georges\\121e9b1a5c1223c24f2e750ad8eb9f0f.jpg",
+      "true_label": "non_georges",
+      "predicted_label": "georges",
+      "probability": 0.8716321587562561,
+      "error_type": "false_positive"
+    },
+    {
+      "index": 466,
+      "image_path": "f:\\bifu\\non_georges\\6287a4935a4892d49d99054416fae3b3.jpg",
+      "true_label": "non_georges",
+      "predicted_label": "georges",
+      "probability": 0.865779459476471,
+      "error_type": "false_positive"
+    },
+    {
+      "index": 521,
+      "image_path": "f:\\bifu\\non_georges\\79def3336d37392cef154167fc272cc0.jpg",
+      "true_label": "non_georges",
+      "predicted_label": "georges",
+      "probability": 0.8467806577682495,
+      "error_type": "false_positive"
+    },
+    {
+      "index": 387,
+      "image_path": "f:\\bifu\\non_georges\\2fabe0d4228ac4d92590d3b337f837d6.jpg",
+      "true_label": "non_georges",
+      "predicted_label": "georges",
+      "probability": 0.8438002467155457,
+      "error_type": "false_positive"
+    },
+    {
+      "index": 709,
+      "image_path": "f:\\bifu\\non_georges\\a12222f2cb266fbdaf1386d0be9e26a8.jpg",
+      "true_label": "non_georges",
+      "predicted_label": "georges",
+      "probability": 0.8389200568199158,
+      "error_type": "false_positive"
+    },
+    {
+      "index": 727,
+      "image_path": "f:\\bifu\\non_georges\\cbda6c49d1b20d94e408a0bb56993c1e.jpg",
+      "true_label": "non_georges",
+      "predicted_label": "georges",
+      "probability": 0.8389007449150085,
+      "error_type": "false_positive"
+    },
+    {
+      "index": 578,
+      "image_path": "f:\\bifu\\non_georges\\b46485d691f644775ec81550bf65e685.jpg",
+      "true_label": "non_georges",
+      "predicted_label": "georges",
+      "probability": 0.8355286121368408,
+      "error_type": "false_positive"
+    },
+    {
+      "index": 425,
+      "image_path": "f:\\bifu\\non_georges\\2b602223201b603ec93a0fa4e417efcb.jpg",
+      "true_label": "non_georges",
+      "predicted_label": "georges",
+      "probability": 0.8124864101409912,
+      "error_type": "false_positive"
+    },
+    {
+      "index": 852,
+      "image_path": "f:\\bifu\\non_georges\\07b5f16edbb115b623d7f0f3d0889799.jpg",
+      "true_label": "non_georges",
+      "predicted_label": "georges",
+      "probability": 0.7995685338973999,
+      "error_type": "false_positive"
+    },
+    {
+      "index": 469,
+      "image_path": "f:\\bifu\\non_georges\\411cf1326131bd11b6cf7db08501abee.jpg",
+      "true_label": "non_georges",
+      "predicted_label": "georges",
+      "probability": 0.7574177384376526,
+      "error_type": "false_positive"
+    },
+    {
+      "index": 506,
+      "image_path": "f:\\bifu\\non_georges\\129bb57784357c90b48a7e7e3403c548.jpg",
+      "true_label": "non_georges",
+      "predicted_label": "georges",
+      "probability": 0.5803947448730469,
+      "error_type": "false_positive"
+    },
+    {
+      "index": 795,
+      "image_path": "f:\\bifu\\non_georges\\2891ad8c236fa18da57147185a2c4e48.jpg",
+      "true_label": "non_georges",
+      "predicted_label": "georges",
+      "probability": 0.568789005279541,
+      "error_type": "false_positive"
+    },
+    {
+      "index": 610,
+      "image_path": "f:\\bifu\\non_georges\\a3769b0b377b937187c8b0eed35a835e.jpg",
+      "true_label": "non_georges",
+      "predicted_label": "georges",
+      "probability": 0.539480984210968,
+      "error_type": "false_positive"
+    },
+    {
+      "index": 480,
+      "image_path": "f:\\bifu\\non_georges\\bc3af41444c7d8e4403691eb324941fb.jpg",
+      "true_label": "non_georges",
+      "predicted_label": "georges",
+      "probability": 0.529657244682312,
+      "error_type": "false_positive"
+    },
+    {
+      "index": 112,
+      "image_path": "f:\\bifu\\georges\\439c78dc6267b9af65b6d9fbddf87842.jpg",
+      "true_label": "georges",
+      "predicted_label": "non_georges",
+      "probability": 0.44460612535476685,
+      "error_type": "false_negative"
+    },
+    {
+      "index": 259,
+      "image_path": "f:\\bifu\\georges\\742bd707d5498c3f83db2f001625a02f.jpg",
+      "true_label": "georges",
+      "predicted_label": "non_georges",
+      "probability": 0.43429115414619446,
+      "error_type": "false_negative"
+    },
+    {
+      "index": 176,
+      "image_path": "f:\\bifu\\georges\\1e70934b29273e21134c1f046955b7e3.jpg",
+      "true_label": "georges",
+      "predicted_label": "non_georges",
+      "probability": 0.39642611145973206,
+      "error_type": "false_negative"
+    },
+    {
+      "index": 247,
+      "image_path": "f:\\bifu\\georges\\4552fd36a85f39d63191799995f75f81.jpg",
+      "true_label": "georges",
+      "predicted_label": "non_georges",
+      "probability": 0.38049963116645813,
+      "error_type": "false_negative"
+    },
+    {
+      "index": 108,
+      "image_path": "f:\\bifu\\georges\\189fa5eb141d8af1093af426cddd6079.jpg",
+      "true_label": "georges",
+      "predicted_label": "non_georges",
+      "probability": 0.32328441739082336,
+      "error_type": "false_negative"
+    },
+    {
+      "index": 186,
+      "image_path": "f:\\bifu\\georges\\c7d2f76db1b764d512ddc3f8bf324705.jpg",
+      "true_label": "georges",
+      "predicted_label": "non_georges",
+      "probability": 0.2810327410697937,
+      "error_type": "false_negative"
+    },
+    {
+      "index": 178,
+      "image_path": "f:\\bifu\\georges\\fdfd1453045a997a248b31ebe3e9394d.jpg",
+      "true_label": "georges",
+      "predicted_label": "non_georges",
+      "probability": 0.26984187960624695,
+      "error_type": "false_negative"
+    },
+    {
+      "index": 345,
+      "image_path": "f:\\bifu\\georges\\241ffed9146f59696d4455a057c7a1eb.jpg",
+      "true_label": "georges",
+      "predicted_label": "non_georges",
+      "probability": 0.21863609552383423,
+      "error_type": "false_negative"
+    },
+    {
+      "index": 315,
+      "image_path": "f:\\bifu\\georges\\74f90aeff2e4c2c359250808ee53392e.jpg",
+      "true_label": "georges",
+      "predicted_label": "non_georges",
+      "probability": 0.21251331269741058,
+      "error_type": "false_negative"
+    },
+    {
+      "index": 38,
+      "image_path": "f:\\bifu\\georges\\0a4167c5b98eba6b844e0b396c02d282.jpg",
+      "true_label": "georges",
+      "predicted_label": "non_georges",
+      "probability": 0.20541299879550934,
+      "error_type": "false_negative"
+    },
+    {
+      "index": 110,
+      "image_path": "f:\\bifu\\georges\\81989db16fa5f9c227cdaf1afde4d4fc.jpg",
+      "true_label": "georges",
+      "predicted_label": "non_georges",
+      "probability": 0.14990167319774628,
+      "error_type": "false_negative"
+    },
+    {
+      "index": 252,
+      "image_path": "f:\\bifu\\georges\\dac3b2be4a188372bbb7c929d7627b94.jpg",
+      "true_label": "georges",
+      "predicted_label": "non_georges",
+      "probability": 0.13062739372253418,
+      "error_type": "false_negative"
+    },
+    {
+      "index": 183,
+      "image_path": "f:\\bifu\\georges\\62e0e9a60d044975764a125ab8da87f8.jpg",
+      "true_label": "georges",
+      "predicted_label": "non_georges",
+      "probability": 0.12053674459457397,
+      "error_type": "false_negative"
+    },
+    {
+      "index": 142,
+      "image_path": "f:\\bifu\\georges\\c615a0d3cbc283d9601105baf60166ce.jpg",
+      "true_label": "georges",
+      "predicted_label": "non_georges",
+      "probability": 0.09563656896352768,
+      "error_type": "false_negative"
+    },
+    {
+      "index": 327,
+      "image_path": "f:\\bifu\\georges\\b91407a00a521caf2e5dc5b0ff712e97.jpg",
+      "true_label": "georges",
+      "predicted_label": "non_georges",
+      "probability": 0.08105895668268204,
+      "error_type": "false_negative"
+    },
+    {
+      "index": 344,
+      "image_path": "f:\\bifu\\georges\\b890c01ce53aa4b74c1f2a049ce1216f.jpg",
+      "true_label": "georges",
+      "predicted_label": "non_georges",
+      "probability": 0.07001315802335739,
+      "error_type": "false_negative"
+    },
+    {
+      "index": 145,
+      "image_path": "f:\\bifu\\georges\\6e4d69690392814fc7d6f295ae2cdc55.jpg",
+      "true_label": "georges",
+      "predicted_label": "non_georges",
+      "probability": 0.059266287833452225,
+      "error_type": "false_negative"
+    },
+    {
+      "index": 47,
+      "image_path": "f:\\bifu\\georges\\593e70b48ee3cbdbd5c7cfb7f7106623.jpg",
+      "true_label": "georges",
+      "predicted_label": "non_georges",
+      "probability": 0.039453789591789246,
+      "error_type": "false_negative"
+    },
+    {
+      "index": 168,
+      "image_path": "f:\\bifu\\georges\\68b629663716e0f918f2fb770f9b3b15.jpg",
+      "true_label": "georges",
+      "predicted_label": "non_georges",
+      "probability": 0.014252850785851479,
+      "error_type": "false_negative"
+    },
+    {
+      "index": 7,
+      "image_path": "f:\\bifu\\georges\\1b1bd0080e98871880226aa6bd046b88.jpg",
+      "true_label": "georges",
+      "predicted_label": "non_georges",
+      "probability": 0.011943315155804157,
+      "error_type": "false_negative"
+    },
+    {
+      "index": 24,
+      "image_path": "f:\\bifu\\georges\\7abcfcee8d3ce74477964da4ba7e2114.jpg",
+      "true_label": "georges",
+      "predicted_label": "non_georges",
+      "probability": 0.01160720456391573,
+      "error_type": "false_negative"
+    },
+    {
+      "index": 316,
+      "image_path": "f:\\bifu\\georges\\95a46a71d952fc262718ea66646ddb69.jpg",
+      "true_label": "georges",
+      "predicted_label": "non_georges",
+      "probability": 0.008259976282715797,
+      "error_type": "false_negative"
+    },
+    {
+      "index": 92,
+      "image_path": "f:\\bifu\\georges\\334c8d426a9d91556bb5c6f4fa60dcbc.jpg",
+      "true_label": "georges",
+      "predicted_label": "non_georges",
+      "probability": 0.007947093807160854,
+      "error_type": "false_negative"
+    },
+    {
+      "index": 331,
+      "image_path": "f:\\bifu\\georges\\c64ff1fc642aff4c2c105db4a06d08dc.jpg",
+      "true_label": "georges",
+      "predicted_label": "non_georges",
+      "probability": 0.00483058812096715,
+      "error_type": "false_negative"
+    },
+    {
+      "index": 318,
+      "image_path": "f:\\bifu\\georges\\292aae4e1e79bfa5ceb2b1d84eb70a4a.jpg",
+      "true_label": "georges",
+      "predicted_label": "non_georges",
+      "probability": 0.004170186351984739,
+      "error_type": "false_negative"
+    },
+    {
+      "index": 170,
+      "image_path": "f:\\bifu\\georges\\ec79e013038d7a84de24eee71a161a18.jpg",
+      "true_label": "georges",
+      "predicted_label": "non_georges",
+      "probability": 0.0006442748126573861,
+      "error_type": "false_negative"
+    },
+    {
+      "index": 55,
+      "image_path": "f:\\bifu\\georges\\fc6cc4454a52aa857c0d1305b6a696b5.jpg",
+      "true_label": "georges",
+      "predicted_label": "non_georges",
+      "probability": 1.7096859664889053e-05,
+      "error_type": "false_negative"
+    }
+  ],
+  "detailed_report": {
+    "non_georges": {
+      "precision": 0.9454545454545454,
+      "recall": 0.9341317365269461,
+      "f1-score": 0.9397590361445783,
+      "support": 501.0
+    },
+    "georges": {
+      "precision": 0.9083333333333333,
+      "recall": 0.923728813559322,
+      "f1-score": 0.9159663865546218,
+      "support": 354.0
+    },
+    "accuracy": 0.9298245614035088,
+    "macro avg": {
+      "precision": 0.9268939393939394,
+      "recall": 0.9289302750431341,
+      "f1-score": 0.9278627113496001,
+      "support": 855.0
+    },
+    "weighted avg": {
+      "precision": 0.9300850611376927,
+      "recall": 0.9298245614035088,
+      "f1-score": 0.9299080443845261,
+      "support": 855.0
+    }
+  }
+}

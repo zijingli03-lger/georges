@@ -1,0 +1,22 @@
+Test task for Bifu
+Create a binary image classification model that determines whether an image contains Saint George (class “positive”) or does not (class “negative”). You are provided with two archives of images — one for the positive class and one for the negative class.
+Main goal: obtain the highest-quality classification model possible. Additional data manipulations and architecture changes are allowed — use any legal and ethical methods that help improve performance.
+Objectives
+•  Build a reproducible pipeline for training and evaluating a binary image classification model.
+•  Demonstrate the effectiveness of your approach: metrics, experiment history/log, and conclusions.
+•  Provide a clear public repository (GitLab/GitHub) with code, descriptions of approaches, and results.
+Expected deliverables
+A public repository (GitLab/GitHub) containing:
+•  Python code (scripts/modules for data preparation, training, inference, evaluation).
+•  README with installation, run instructions, and an overview of the architecture.
+•  Files with results / logs / checkpoints (or links to them).
+•  A notebook or report (Markdown) describing experiments, choices, and results.
+•  A short description of the approaches you used and why they were chosen.
+•  A final report of achieved results: metrics (e.g., accuracy, precision, recall, F1, ROC AUC), example misclassifications, and possible improvements.
+•  (Optional / recommended) Dockerfile / requirements.txt / environment.yml for reproducibility.
+Success criteria / evaluation
+•  Model quality according to chosen metrics.
+•  Clarity and reproducibility of the pipeline (how quickly someone can run and reproduce results).
+•  Experiment tracking and reporting: hypotheses, controlled experiments, and logs.
+•  Creativity and justification of applied techniques.
+•  Rational use of time: explain how long each stage took and what improvements were gained.

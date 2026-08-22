@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.conda/
+venv/
+env/
+.env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Data
+georges/
+non_georges/
+georges.zip
+non_georges.zip
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tiff
+
+# Model weights
+*.pth
+*.pt
+*.h5
+*.ckpt
+
+# 模型权重（281MB）超过 GitHub 单文件 100MB 限制，
+# 通过 GitHub Releases 附件提供下载（见 README"数据获取"）
+
+# Jupyter
+.ipynb_checkpoints
+
+# Logs
+*.log
+logs/
+
+# Cache
+.cache/
+.pytest_cache/
