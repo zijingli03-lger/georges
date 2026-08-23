@@ -39,29 +39,22 @@
 - CUDA 12.1 (GPU 版本，可选——没有 GPU 也能用 CPU 运行，只是训练更慢)
 - 建议 GPU 显存 >= 4GB
 
-### 方式 1：一键安装（推荐，只需一条命令）
-
-**Windows**：双击 `setup.bat`，脚本会自动完成：创建虚拟环境 → 安装 PyTorch → 安装全部依赖 → 验证。
-
-**Linux / macOS**：
-```bash
-bash setup.sh
-```
-
-### 方式 2：手动安装
+### 安装依赖（一键）
 
 ```bash
-# 1. 创建虚拟环境
+# 1. (可选但推荐) 创建并激活虚拟环境
 python -m venv venv
 venv\Scripts\activate  # Windows
 source venv/bin/activate  # Linux/Mac
 
-# 2. 安装 PyTorch (CUDA 12.1 版；无 GPU 可去掉 --index-url 参数装 CPU 版)
-pip install torch==2.5.1 torchvision==0.20.1 --index-url https://download.pytorch.org/whl/cu121
-
-# 3. 安装其余依赖
+# 2. 一键安装全部依赖（默认安装 PyTorch CPU 版，无 GPU 也能运行）
 pip install -r requirements.txt
 ```
+
+> 💡 需要 GPU 加速训练？先执行下面这行，再执行上面的 `pip install -r requirements.txt`：
+> ```bash
+> pip install torch==2.5.1 torchvision==0.20.1 --index-url https://download.pytorch.org/whl/cu121
+> ```
 
 ### 验证环境
 
@@ -83,8 +76,6 @@ if torch.cuda.is_available():
 bifu/
 ├── georges/                  # 正类图像 (包含圣乔治)
 ├── non_georges/              # 负类图像 (不包含圣乔治)
-├── setup.bat                 # 一键安装脚本 (Windows)
-├── setup.sh                  # 一键安装脚本 (Linux/macOS)
 ├── project/
 │   ├── src/
 │   │   ├── models/

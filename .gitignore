@@ -33,6 +33,10 @@ non_georges.zip
 *.bmp
 *.tiff
 
+# 交付压缩包与本地副本（避免误提交大文件）
+saint_george_classifier.zip
+新建文件夹/
+
 # Model weights
 *.pth
 *.pt
