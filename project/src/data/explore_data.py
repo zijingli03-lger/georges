@@ -149,7 +149,8 @@ def show_sample_images(image_files, n_samples=8, save_path=None):
 
 def main():
     """主函数"""
-    base_dir = Path(r'f:\bifu')
+    # 自动推导项目根目录（本文件位于 project/src/data/ 下，向上 3 级即项目根）
+    base_dir = Path(__file__).resolve().parents[3]
     georges_dir = base_dir / 'georges'
     non_georges_dir = base_dir / 'non_georges'
     output_dir = base_dir / 'project' / 'results'
