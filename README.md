@@ -27,7 +27,8 @@
 
 获取后将两个压缩包放到仓库根目录解压，或直接放置图片文件夹，再运行数据划分脚本即可。
 
-> 模型权重 `best_model.pth` 通过 Git LFS 管理，clone 仓库后自动下载（需安装 [Git LFS](https://git-lfs.com/)：`git lfs install`）。
+> 模型权重 `best_model.pth`（281 MB）因超过 GitHub 单文件 100MB 限制，不直接包含在仓库中，
+> 请从 **GitHub Releases 页面**下载，或联系作者获取。下载后放到 `project/results/best_model.pth` 即可运行评估。
 
 ---
 
@@ -35,43 +36,34 @@
 
 ### 系统要求
 - Python 3.10+
-- CUDA 12.1 (GPU 版本)
+- CUDA 12.1 (GPU 版本，可选——没有 GPU 也能用 CPU 运行，只是训练更慢)
 - 建议 GPU 显存 >= 4GB
 
-### 安装步骤
+### 方式 1：一键安装（推荐，只需一条命令）
 
-#### 1. 创建虚拟环境
+**Windows**：双击 `setup.bat`，脚本会自动完成：创建虚拟环境 → 安装 PyTorch → 安装全部依赖 → 验证。
+
+**Linux / macOS**：
+```bash
+bash setup.sh
+```
+
+### 方式 2：手动安装
 
 ```bash
-# 方式 1: 使用 conda (推荐)
-conda create -n bifu python=3.10
-conda activate bifu
-
-# 方式 2: 使用 venv
+# 1. 创建虚拟环境
 python -m venv venv
 venv\Scripts\activate  # Windows
 source venv/bin/activate  # Linux/Mac
-```
 
-#### 2. 安装依赖
+# 2. 安装 PyTorch (CUDA 12.1 版；无 GPU 可去掉 --index-url 参数装 CPU 版)
+pip install torch==2.5.1 torchvision==0.20.1 --index-url https://download.pytorch.org/whl/cu121
 
-```bash
-# 安装 PyTorch (GPU 版本)
-pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
-
-# 安装其他依赖
-pip install numpy pandas matplotlib scikit-learn pillow tqdm
-
-# 安装可视化依赖 (可选)
-pip install gradio  # 用于启动 Web Demo
-```
-
-或使用 requirements.txt：
-```bash
+# 3. 安装其余依赖
 pip install -r requirements.txt
 ```
 
-#### 3. 验证环境
+### 验证环境
 
 ```bash
 python -c "
@@ -91,6 +83,8 @@ if torch.cuda.is_available():
 bifu/
 ├── georges/                  # 正类图像 (包含圣乔治)
 ├── non_georges/              # 负类图像 (不包含圣乔治)
+├── setup.bat                 # 一键安装脚本 (Windows)
+├── setup.sh                  # 一键安装脚本 (Linux/macOS)
 ├── project/
 │   ├── src/
 │   │   ├── models/
@@ -106,7 +100,7 @@ bifu/
 │   ├── data/
 │   │   └── splits/           # 划分后的数据索引 (CSV)
 │   ├── results/
-│   │   ├── best_model.pth    # 最佳模型权重
+│   │   ├── best_model.pth    # 最佳模型权重 (从 Releases 下载)
 │   │   ├── training_history.json  # 训练历史
 │   │   ├── training_curves.png    # 训练曲线
 │   │   ├── evaluation_report.json # 评估报告（含误分类样本清单）
@@ -115,7 +109,8 @@ bifu/
 │   │   ├── misclassified_samples.csv   # 误分类样本清单（路径+标签+置信度）
 │   │   └── misclassified_samples.png   # 误分类样本网格图
 │   └── docs/
-│       └── workflow.md       # 工作流程记录
+│       ├── EXPERIMENT_REPORT.md # 实验报告
+│       └── RESULTS.md          # 结果报告
 ├── requirements.txt          # 依赖列表
 └── README.md
 ```
@@ -267,7 +262,7 @@ class Classifier(nn.Module):
 
 ## 项目历史
 
-详细的工作流程和决策记录请参考 [workflow.md](project/docs/workflow.md)。
+详细的实验过程、决策记录和结果分析请参考 [实验报告](project/docs/EXPERIMENT_REPORT.md) 与 [结果报告](project/docs/RESULTS.md)。
 
 ---
 
