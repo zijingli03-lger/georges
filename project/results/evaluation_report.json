@@ -9,7 +9,7 @@
   "misclassified_samples": [
     {
       "index": 404,
-      "image_path": "f:\\bifu\\non_georges\\f68bdb42aaba5dda83330eb93a3d0560.jpg",
+      "image_path": "non_georges/f68bdb42aaba5dda83330eb93a3d0560.jpg",
       "true_label": "non_georges",
       "predicted_label": "georges",
       "probability": 0.9998981952667236,
@@ -17,7 +17,7 @@
     },
     {
       "index": 519,
-      "image_path": "f:\\bifu\\non_georges\\8e7cb41a5b5d7bb386891b0bed31cc2a.jpg",
+      "image_path": "non_georges/8e7cb41a5b5d7bb386891b0bed31cc2a.jpg",
       "true_label": "non_georges",
       "predicted_label": "georges",
       "probability": 0.9997875094413757,
@@ -25,7 +25,7 @@
     },
     {
       "index": 828,
-      "image_path": "f:\\bifu\\non_georges\\e2c9142403959291dc9768d9ec2a6b8b.jpg",
+      "image_path": "non_georges/e2c9142403959291dc9768d9ec2a6b8b.jpg",
       "true_label": "non_georges",
       "predicted_label": "georges",
       "probability": 0.9991881251335144,
@@ -33,7 +33,7 @@
     },
     {
       "index": 782,
-      "image_path": "f:\\bifu\\non_georges\\d12addac89432815cc331924c98b97e0.jpg",
+      "image_path": "non_georges/d12addac89432815cc331924c98b97e0.jpg",
       "true_label": "non_georges",
       "predicted_label": "georges",
       "probability": 0.9991532564163208,
@@ -41,7 +41,7 @@
     },
     {
       "index": 479,
-      "image_path": "f:\\bifu\\non_georges\\0c889820ec03227827aeb7045e36512a.jpg",
+      "image_path": "non_georges/0c889820ec03227827aeb7045e36512a.jpg",
       "true_label": "non_georges",
       "predicted_label": "georges",
       "probability": 0.9990749359130859,
@@ -49,7 +49,7 @@
     },
     {
       "index": 605,
-      "image_path": "f:\\bifu\\non_georges\\14767f8edc2b1cbf064f91cd42add601.jpg",
+      "image_path": "non_georges/14767f8edc2b1cbf064f91cd42add601.jpg",
       "true_label": "non_georges",
       "predicted_label": "georges",
       "probability": 0.998456597328186,
@@ -57,7 +57,7 @@
     },
     {
       "index": 735,
-      "image_path": "f:\\bifu\\non_georges\\42dfd245ab187d7a6bffa688dcb57b2a.jpg",
+      "image_path": "non_georges/42dfd245ab187d7a6bffa688dcb57b2a.jpg",
       "true_label": "non_georges",
       "predicted_label": "georges",
       "probability": 0.9962959885597229,
@@ -65,7 +65,7 @@
     },
     {
       "index": 435,
-      "image_path": "f:\\bifu\\non_georges\\5ed8853235c80ae6a66d7a665b82ba96.jpg",
+      "image_path": "non_georges/5ed8853235c80ae6a66d7a665b82ba96.jpg",
       "true_label": "non_georges",
       "predicted_label": "georges",
       "probability": 0.987738847732544,
@@ -73,7 +73,7 @@
     },
     {
       "index": 683,
-      "image_path": "f:\\bifu\\non_georges\\ec8bfe162e828bb0206f6344fe38e291.jpg",
+      "image_path": "non_georges/ec8bfe162e828bb0206f6344fe38e291.jpg",
       "true_label": "non_georges",
       "predicted_label": "georges",
       "probability": 0.9613698124885559,
@@ -81,7 +81,7 @@
     },
     {
       "index": 455,
-      "image_path": "f:\\bifu\\non_georges\\029ef54d8fef4629737442e356877f7d.jpg",
+      "image_path": "non_georges/029ef54d8fef4629737442e356877f7d.jpg",
       "true_label": "non_georges",
       "predicted_label": "georges",
       "probability": 0.9601504802703857,
@@ -89,7 +89,7 @@
     },
     {
       "index": 768,
-      "image_path": "f:\\bifu\\non_georges\\6f17074ad14adad8f7a93a17021ae7b4.jpg",
+      "image_path": "non_georges/6f17074ad14adad8f7a93a17021ae7b4.jpg",
       "true_label": "non_georges",
       "predicted_label": "georges",
       "probability": 0.9560577273368835,
@@ -97,7 +97,7 @@
     },
     {
       "index": 589,
-      "image_path": "f:\\bifu\\non_georges\\6795111488dd85aed86b3b2bee0403a5.jpg",
+      "image_path": "non_georges/6795111488dd85aed86b3b2bee0403a5.jpg",
       "true_label": "non_georges",
       "predicted_label": "georges",
       "probability": 0.9277601838111877,
@@ -105,7 +105,7 @@
     },
     {
       "index": 583,
-      "image_path": "f:\\bifu\\non_georges\\9900c98e1780b0e67dd6bc4d9c0f4ca5.jpg",
+      "image_path": "non_georges/9900c98e1780b0e67dd6bc4d9c0f4ca5.jpg",
       "true_label": "non_georges",
       "predicted_label": "georges",
       "probability": 0.9257141947746277,
@@ -113,7 +113,7 @@
     },
     {
       "index": 686,
-      "image_path": "f:\\bifu\\non_georges\\24b7820d1535c66f43525bdebb424043.jpg",
+      "image_path": "non_georges/24b7820d1535c66f43525bdebb424043.jpg",
       "true_label": "non_georges",
       "predicted_label": "georges",
       "probability": 0.9015963077545166,
@@ -121,7 +121,7 @@
     },
     {
       "index": 456,
-      "image_path": "f:\\bifu\\non_georges\\16dd1cdd6ac4466b84534ce556e88849.jpg",
+      "image_path": "non_georges/16dd1cdd6ac4466b84534ce556e88849.jpg",
       "true_label": "non_georges",
       "predicted_label": "georges",
       "probability": 0.8987361192703247,
@@ -129,7 +129,7 @@
     },
     {
       "index": 634,
-      "image_path": "f:\\bifu\\non_georges\\a767ef3450093b947683cf95a16b64e3.jpg",
+      "image_path": "non_georges/a767ef3450093b947683cf95a16b64e3.jpg",
       "true_label": "non_georges",
       "predicted_label": "georges",
       "probability": 0.8923461437225342,
@@ -137,7 +137,7 @@
     },
     {
       "index": 792,
-      "image_path": "f:\\bifu\\non_georges\\adfe1b1975cad5c5bf8c9cc30ff4da66.jpg",
+      "image_path": "non_georges/adfe1b1975cad5c5bf8c9cc30ff4da66.jpg",
       "true_label": "non_georges",
       "predicted_label": "georges",
       "probability": 0.8897693753242493,
@@ -145,7 +145,7 @@
     },
     {
       "index": 813,
-      "image_path": "f:\\bifu\\non_georges\\6aa72d5b9412dd4c77c328c768542426.jpg",
+      "image_path": "non_georges/6aa72d5b9412dd4c77c328c768542426.jpg",
       "true_label": "non_georges",
       "predicted_label": "georges",
       "probability": 0.8855510354042053,
@@ -153,7 +153,7 @@
     },
     {
       "index": 764,
-      "image_path": "f:\\bifu\\non_georges\\de93c205bfc3e2acb928f6eccbf4420f.jpg",
+      "image_path": "non_georges/de93c205bfc3e2acb928f6eccbf4420f.jpg",
       "true_label": "non_georges",
       "predicted_label": "georges",
       "probability": 0.8748341798782349,
@@ -161,7 +161,7 @@
     },
     {
       "index": 742,
-      "image_path": "f:\\bifu\\non_georges\\121e9b1a5c1223c24f2e750ad8eb9f0f.jpg",
+      "image_path": "non_georges/121e9b1a5c1223c24f2e750ad8eb9f0f.jpg",
       "true_label": "non_georges",
       "predicted_label": "georges",
       "probability": 0.8716321587562561,
@@ -169,7 +169,7 @@
     },
     {
       "index": 466,
-      "image_path": "f:\\bifu\\non_georges\\6287a4935a4892d49d99054416fae3b3.jpg",
+      "image_path": "non_georges/6287a4935a4892d49d99054416fae3b3.jpg",
       "true_label": "non_georges",
       "predicted_label": "georges",
       "probability": 0.865779459476471,
@@ -177,7 +177,7 @@
     },
     {
       "index": 521,
-      "image_path": "f:\\bifu\\non_georges\\79def3336d37392cef154167fc272cc0.jpg",
+      "image_path": "non_georges/79def3336d37392cef154167fc272cc0.jpg",
       "true_label": "non_georges",
       "predicted_label": "georges",
       "probability": 0.8467806577682495,
@@ -185,7 +185,7 @@
     },
     {
       "index": 387,
-      "image_path": "f:\\bifu\\non_georges\\2fabe0d4228ac4d92590d3b337f837d6.jpg",
+      "image_path": "non_georges/2fabe0d4228ac4d92590d3b337f837d6.jpg",
       "true_label": "non_georges",
       "predicted_label": "georges",
       "probability": 0.8438002467155457,
@@ -193,7 +193,7 @@
     },
     {
       "index": 709,
-      "image_path": "f:\\bifu\\non_georges\\a12222f2cb266fbdaf1386d0be9e26a8.jpg",
+      "image_path": "non_georges/a12222f2cb266fbdaf1386d0be9e26a8.jpg",
       "true_label": "non_georges",
       "predicted_label": "georges",
       "probability": 0.8389200568199158,
@@ -201,7 +201,7 @@
     },
     {
       "index": 727,
-      "image_path": "f:\\bifu\\non_georges\\cbda6c49d1b20d94e408a0bb56993c1e.jpg",
+      "image_path": "non_georges/cbda6c49d1b20d94e408a0bb56993c1e.jpg",
       "true_label": "non_georges",
       "predicted_label": "georges",
       "probability": 0.8389007449150085,
@@ -209,7 +209,7 @@
     },
     {
       "index": 578,
-      "image_path": "f:\\bifu\\non_georges\\b46485d691f644775ec81550bf65e685.jpg",
+      "image_path": "non_georges/b46485d691f644775ec81550bf65e685.jpg",
       "true_label": "non_georges",
       "predicted_label": "georges",
       "probability": 0.8355286121368408,
@@ -217,7 +217,7 @@
     },
     {
       "index": 425,
-      "image_path": "f:\\bifu\\non_georges\\2b602223201b603ec93a0fa4e417efcb.jpg",
+      "image_path": "non_georges/2b602223201b603ec93a0fa4e417efcb.jpg",
       "true_label": "non_georges",
       "predicted_label": "georges",
       "probability": 0.8124864101409912,
@@ -225,7 +225,7 @@
     },
     {
       "index": 852,
-      "image_path": "f:\\bifu\\non_georges\\07b5f16edbb115b623d7f0f3d0889799.jpg",
+      "image_path": "non_georges/07b5f16edbb115b623d7f0f3d0889799.jpg",
       "true_label": "non_georges",
       "predicted_label": "georges",
       "probability": 0.7995685338973999,
@@ -233,7 +233,7 @@
     },
     {
       "index": 469,
-      "image_path": "f:\\bifu\\non_georges\\411cf1326131bd11b6cf7db08501abee.jpg",
+      "image_path": "non_georges/411cf1326131bd11b6cf7db08501abee.jpg",
       "true_label": "non_georges",
       "predicted_label": "georges",
       "probability": 0.7574177384376526,
@@ -241,7 +241,7 @@
     },
     {
       "index": 506,
-      "image_path": "f:\\bifu\\non_georges\\129bb57784357c90b48a7e7e3403c548.jpg",
+      "image_path": "non_georges/129bb57784357c90b48a7e7e3403c548.jpg",
       "true_label": "non_georges",
       "predicted_label": "georges",
       "probability": 0.5803947448730469,
@@ -249,7 +249,7 @@
     },
     {
       "index": 795,
-      "image_path": "f:\\bifu\\non_georges\\2891ad8c236fa18da57147185a2c4e48.jpg",
+      "image_path": "non_georges/2891ad8c236fa18da57147185a2c4e48.jpg",
       "true_label": "non_georges",
       "predicted_label": "georges",
       "probability": 0.568789005279541,
@@ -257,7 +257,7 @@
     },
     {
       "index": 610,
-      "image_path": "f:\\bifu\\non_georges\\a3769b0b377b937187c8b0eed35a835e.jpg",
+      "image_path": "non_georges/a3769b0b377b937187c8b0eed35a835e.jpg",
       "true_label": "non_georges",
       "predicted_label": "georges",
       "probability": 0.539480984210968,
@@ -265,7 +265,7 @@
     },
     {
       "index": 480,
-      "image_path": "f:\\bifu\\non_georges\\bc3af41444c7d8e4403691eb324941fb.jpg",
+      "image_path": "non_georges/bc3af41444c7d8e4403691eb324941fb.jpg",
       "true_label": "non_georges",
       "predicted_label": "georges",
       "probability": 0.529657244682312,
@@ -273,7 +273,7 @@
     },
     {
       "index": 112,
-      "image_path": "f:\\bifu\\georges\\439c78dc6267b9af65b6d9fbddf87842.jpg",
+      "image_path": "georges/439c78dc6267b9af65b6d9fbddf87842.jpg",
       "true_label": "georges",
       "predicted_label": "non_georges",
       "probability": 0.44460612535476685,
@@ -281,7 +281,7 @@
     },
     {
       "index": 259,
-      "image_path": "f:\\bifu\\georges\\742bd707d5498c3f83db2f001625a02f.jpg",
+      "image_path": "georges/742bd707d5498c3f83db2f001625a02f.jpg",
       "true_label": "georges",
       "predicted_label": "non_georges",
       "probability": 0.43429115414619446,
@@ -289,7 +289,7 @@
     },
     {
       "index": 176,
-      "image_path": "f:\\bifu\\georges\\1e70934b29273e21134c1f046955b7e3.jpg",
+      "image_path": "georges/1e70934b29273e21134c1f046955b7e3.jpg",
       "true_label": "georges",
       "predicted_label": "non_georges",
       "probability": 0.39642611145973206,
@@ -297,7 +297,7 @@
     },
     {
       "index": 247,
-      "image_path": "f:\\bifu\\georges\\4552fd36a85f39d63191799995f75f81.jpg",
+      "image_path": "georges/4552fd36a85f39d63191799995f75f81.jpg",
       "true_label": "georges",
       "predicted_label": "non_georges",
       "probability": 0.38049963116645813,
@@ -305,7 +305,7 @@
     },
     {
       "index": 108,
-      "image_path": "f:\\bifu\\georges\\189fa5eb141d8af1093af426cddd6079.jpg",
+      "image_path": "georges/189fa5eb141d8af1093af426cddd6079.jpg",
       "true_label": "georges",
       "predicted_label": "non_georges",
       "probability": 0.32328441739082336,
@@ -313,7 +313,7 @@
     },
     {
       "index": 186,
-      "image_path": "f:\\bifu\\georges\\c7d2f76db1b764d512ddc3f8bf324705.jpg",
+      "image_path": "georges/c7d2f76db1b764d512ddc3f8bf324705.jpg",
       "true_label": "georges",
       "predicted_label": "non_georges",
       "probability": 0.2810327410697937,
@@ -321,7 +321,7 @@
     },
     {
       "index": 178,
-      "image_path": "f:\\bifu\\georges\\fdfd1453045a997a248b31ebe3e9394d.jpg",
+      "image_path": "georges/fdfd1453045a997a248b31ebe3e9394d.jpg",
       "true_label": "georges",
       "predicted_label": "non_georges",
       "probability": 0.26984187960624695,
@@ -329,7 +329,7 @@
     },
     {
       "index": 345,
-      "image_path": "f:\\bifu\\georges\\241ffed9146f59696d4455a057c7a1eb.jpg",
+      "image_path": "georges/241ffed9146f59696d4455a057c7a1eb.jpg",
       "true_label": "georges",
       "predicted_label": "non_georges",
       "probability": 0.21863609552383423,
@@ -337,7 +337,7 @@
     },
     {
       "index": 315,
-      "image_path": "f:\\bifu\\georges\\74f90aeff2e4c2c359250808ee53392e.jpg",
+      "image_path": "georges/74f90aeff2e4c2c359250808ee53392e.jpg",
       "true_label": "georges",
       "predicted_label": "non_georges",
       "probability": 0.21251331269741058,
@@ -345,7 +345,7 @@
     },
     {
       "index": 38,
-      "image_path": "f:\\bifu\\georges\\0a4167c5b98eba6b844e0b396c02d282.jpg",
+      "image_path": "georges/0a4167c5b98eba6b844e0b396c02d282.jpg",
       "true_label": "georges",
       "predicted_label": "non_georges",
       "probability": 0.20541299879550934,
@@ -353,7 +353,7 @@
     },
     {
       "index": 110,
-      "image_path": "f:\\bifu\\georges\\81989db16fa5f9c227cdaf1afde4d4fc.jpg",
+      "image_path": "georges/81989db16fa5f9c227cdaf1afde4d4fc.jpg",
       "true_label": "georges",
       "predicted_label": "non_georges",
       "probability": 0.14990167319774628,
@@ -361,7 +361,7 @@
     },
     {
       "index": 252,
-      "image_path": "f:\\bifu\\georges\\dac3b2be4a188372bbb7c929d7627b94.jpg",
+      "image_path": "georges/dac3b2be4a188372bbb7c929d7627b94.jpg",
       "true_label": "georges",
       "predicted_label": "non_georges",
       "probability": 0.13062739372253418,
@@ -369,7 +369,7 @@
     },
     {
       "index": 183,
-      "image_path": "f:\\bifu\\georges\\62e0e9a60d044975764a125ab8da87f8.jpg",
+      "image_path": "georges/62e0e9a60d044975764a125ab8da87f8.jpg",
       "true_label": "georges",
       "predicted_label": "non_georges",
       "probability": 0.12053674459457397,
@@ -377,7 +377,7 @@
     },
     {
       "index": 142,
-      "image_path": "f:\\bifu\\georges\\c615a0d3cbc283d9601105baf60166ce.jpg",
+      "image_path": "georges/c615a0d3cbc283d9601105baf60166ce.jpg",
       "true_label": "georges",
       "predicted_label": "non_georges",
       "probability": 0.09563656896352768,
@@ -385,7 +385,7 @@
     },
     {
       "index": 327,
-      "image_path": "f:\\bifu\\georges\\b91407a00a521caf2e5dc5b0ff712e97.jpg",
+      "image_path": "georges/b91407a00a521caf2e5dc5b0ff712e97.jpg",
       "true_label": "georges",
       "predicted_label": "non_georges",
       "probability": 0.08105895668268204,
@@ -393,7 +393,7 @@
     },
     {
       "index": 344,
-      "image_path": "f:\\bifu\\georges\\b890c01ce53aa4b74c1f2a049ce1216f.jpg",
+      "image_path": "georges/b890c01ce53aa4b74c1f2a049ce1216f.jpg",
       "true_label": "georges",
       "predicted_label": "non_georges",
       "probability": 0.07001315802335739,
@@ -401,7 +401,7 @@
     },
     {
       "index": 145,
-      "image_path": "f:\\bifu\\georges\\6e4d69690392814fc7d6f295ae2cdc55.jpg",
+      "image_path": "georges/6e4d69690392814fc7d6f295ae2cdc55.jpg",
       "true_label": "georges",
       "predicted_label": "non_georges",
       "probability": 0.059266287833452225,
@@ -409,7 +409,7 @@
     },
     {
       "index": 47,
-      "image_path": "f:\\bifu\\georges\\593e70b48ee3cbdbd5c7cfb7f7106623.jpg",
+      "image_path": "georges/593e70b48ee3cbdbd5c7cfb7f7106623.jpg",
       "true_label": "georges",
       "predicted_label": "non_georges",
       "probability": 0.039453789591789246,
@@ -417,7 +417,7 @@
     },
     {
       "index": 168,
-      "image_path": "f:\\bifu\\georges\\68b629663716e0f918f2fb770f9b3b15.jpg",
+      "image_path": "georges/68b629663716e0f918f2fb770f9b3b15.jpg",
       "true_label": "georges",
       "predicted_label": "non_georges",
       "probability": 0.014252850785851479,
@@ -425,7 +425,7 @@
     },
     {
       "index": 7,
-      "image_path": "f:\\bifu\\georges\\1b1bd0080e98871880226aa6bd046b88.jpg",
+      "image_path": "georges/1b1bd0080e98871880226aa6bd046b88.jpg",
       "true_label": "georges",
       "predicted_label": "non_georges",
       "probability": 0.011943315155804157,
@@ -433,7 +433,7 @@
     },
     {
       "index": 24,
-      "image_path": "f:\\bifu\\georges\\7abcfcee8d3ce74477964da4ba7e2114.jpg",
+      "image_path": "georges/7abcfcee8d3ce74477964da4ba7e2114.jpg",
       "true_label": "georges",
       "predicted_label": "non_georges",
       "probability": 0.01160720456391573,
@@ -441,7 +441,7 @@
     },
     {
       "index": 316,
-      "image_path": "f:\\bifu\\georges\\95a46a71d952fc262718ea66646ddb69.jpg",
+      "image_path": "georges/95a46a71d952fc262718ea66646ddb69.jpg",
       "true_label": "georges",
       "predicted_label": "non_georges",
       "probability": 0.008259976282715797,
@@ -449,7 +449,7 @@
     },
     {
       "index": 92,
-      "image_path": "f:\\bifu\\georges\\334c8d426a9d91556bb5c6f4fa60dcbc.jpg",
+      "image_path": "georges/334c8d426a9d91556bb5c6f4fa60dcbc.jpg",
       "true_label": "georges",
       "predicted_label": "non_georges",
       "probability": 0.007947093807160854,
@@ -457,7 +457,7 @@
     },
     {
       "index": 331,
-      "image_path": "f:\\bifu\\georges\\c64ff1fc642aff4c2c105db4a06d08dc.jpg",
+      "image_path": "georges/c64ff1fc642aff4c2c105db4a06d08dc.jpg",
       "true_label": "georges",
       "predicted_label": "non_georges",
       "probability": 0.00483058812096715,
@@ -465,7 +465,7 @@
     },
     {
       "index": 318,
-      "image_path": "f:\\bifu\\georges\\292aae4e1e79bfa5ceb2b1d84eb70a4a.jpg",
+      "image_path": "georges/292aae4e1e79bfa5ceb2b1d84eb70a4a.jpg",
       "true_label": "georges",
       "predicted_label": "non_georges",
       "probability": 0.004170186351984739,
@@ -473,7 +473,7 @@
     },
     {
       "index": 170,
-      "image_path": "f:\\bifu\\georges\\ec79e013038d7a84de24eee71a161a18.jpg",
+      "image_path": "georges/ec79e013038d7a84de24eee71a161a18.jpg",
       "true_label": "georges",
       "predicted_label": "non_georges",
       "probability": 0.0006442748126573861,
@@ -481,7 +481,7 @@
     },
     {
       "index": 55,
-      "image_path": "f:\\bifu\\georges\\fc6cc4454a52aa857c0d1305b6a696b5.jpg",
+      "image_path": "georges/fc6cc4454a52aa857c0d1305b6a696b5.jpg",
       "true_label": "georges",
       "predicted_label": "non_georges",
       "probability": 1.7096859664889053e-05,

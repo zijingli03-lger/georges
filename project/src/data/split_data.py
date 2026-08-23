@@ -6,8 +6,15 @@
 import os
 import random
 import csv
+import sys
 from pathlib import Path
 from collections import defaultdict
+
+# Windows 控制台默认 GBK 编码无法打印 emoji（如 ✅），强制 UTF-8 输出
+if hasattr(sys.stdout, 'reconfigure'):
+    sys.stdout.reconfigure(encoding='utf-8', errors='replace')
+if hasattr(sys.stderr, 'reconfigure'):
+    sys.stderr.reconfigure(encoding='utf-8', errors='replace')
 
 
 def get_image_files(folder_path, extensions=None):
@@ -123,7 +130,8 @@ def main():
                             ('non_georges', summary[split_name]['non_georges'])]:
             for f in files:
                 rows.append({
-                    'image_path': str(f),
+                    # 使用相对路径（相对项目根），保证换机器/换目录后依然可用
+                    'image_path': f.relative_to(base_dir).as_posix(),
                     'label': label,
                     'label_code': 1 if label == 'georges' else 0
                 })

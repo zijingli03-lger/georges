@@ -4,6 +4,7 @@
 """
 
 import os
+import sys
 from pathlib import Path
 from collections import Counter
 import numpy as np
@@ -11,6 +12,12 @@ from PIL import Image
 import matplotlib.pyplot as plt
 import matplotlib
 matplotlib.use('Agg')
+
+# Windows 控制台默认 GBK 编码无法打印 emoji（如 ✅），强制 UTF-8 输出
+if hasattr(sys.stdout, 'reconfigure'):
+    sys.stdout.reconfigure(encoding='utf-8', errors='replace')
+if hasattr(sys.stderr, 'reconfigure'):
+    sys.stderr.reconfigure(encoding='utf-8', errors='replace')
 
 
 def get_image_files(folder_path, extensions=None):

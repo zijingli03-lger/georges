@@ -47,11 +47,17 @@ class BinaryClassificationDataset(Dataset):
         image_path = item['image_path']
         label = item['label_code']
         
+        # 支持相对路径：CSV 中存的是相对项目根的路径（如 georges/xxx.jpg），
+        # 换机器/换目录解压后也能正确解析（本文件位于 project/src/data/ 下，向上 3 级即项目根）
+        path = Path(image_path)
+        if not path.is_absolute():
+            path = Path(__file__).resolve().parents[3] / image_path
+        
         # 加载图像
         try:
-            image = Image.open(image_path).convert('RGB')
+            image = Image.open(path).convert('RGB')
         except Exception as e:
-            print(f"Warning: Cannot load {image_path}: {e}")
+            print(f"Warning: Cannot load {path}: {e}")
             # 返回黑色占位图，但保留原始标签，避免静默污染数据
             image = Image.new('RGB', (224, 224), color='black')
         
